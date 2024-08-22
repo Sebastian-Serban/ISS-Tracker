@@ -7,7 +7,6 @@ import csv
 # api_key = INPUT YOUR API KEY FROM www.openweathermap.org
 # locationname = INPUT YOUR LOCATION AS STRING
 
-
 url_location = "http://api.open-notify.org/iss-now.json"
 api_call_location = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(locationname, api_key)
 
